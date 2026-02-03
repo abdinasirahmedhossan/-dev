@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>ShopApp | Abdinasir.dev</title>
+  <meta name="description" content="SmartShop - Manage your shopping items easily">
+  <meta name="keywords" content="SmartShop, Shopping, Abdinasir.dev">
+
+  <!-- Favicons -->
+  <link href="assets/img/letter-a.png" rel="icon">
+  <link href="assets/img/logotype-with-letter-a.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="shop-page">
+
+  <!-- Header -->
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container d-flex align-items-center justify-content-between">
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="SmartShop.html" class="active">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="main">
+
+    <!-- SmartShop Section -->
+    <section id="SmartShop" class="SmartShop section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>SmartShop</h2>
+        <p>Manage your shopping items easily!</p>
+      </div>
+
+      <!-- Product Form -->
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <form id="productForm" class="row g-3">
+          <div class="col-7 mx-auto">
+            <input type="text" name="productName" class="form-control" placeholder="Product Name" required>
+          </div>
+          <div class="col-7 mx-auto">
+            <input type="number" name="productPrice" class="form-control" placeholder="Price" required>
+          </div>
+          <div class="col-7 mx-auto">
+            <input type="number" name="productQuantity" class="form-control" placeholder="Quantity" required>
+          </div>
+          <div class="col-6 mx-auto" >
+            <button type="submit" class="btn btn-primary">Add Product</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Product List Section -->
+    <section class="list-section">
+      <div class="container">
+        <h2>Product List</h2>
+        <ul id="productlist" class="list-group">
+          <!-- Items will appear here -->
+        </ul>
+      </div>
+    </section>
+
+    <!-- Summary Section -->
+    <section class="summary-section">
+      <div class="container">
+        <h2>Summary</h2>
+        <p id="totalItem">Total Items: 0</p>
+        <p id="totalCost">Total Cost: $0.00</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="copyright text-center">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Abdinasir</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="#"><i class="bi bi-twitter-x"></i></a>
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        Designed by Abdinasir.dev | Nasri.dev
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="script.js"></script>
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
